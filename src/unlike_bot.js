@@ -1,10 +1,9 @@
 const Twit = require('twit');
 const config = require('./config');
+const screen_name = require('./screen_name');
 
 const bot = new Twit(config);
-
-const screen_name = 'JacksonBates';
-
+console.log(screen_name);
 const now = Date.now();
 const ten_days = 864000000;
 

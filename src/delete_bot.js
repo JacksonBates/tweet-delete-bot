@@ -1,12 +1,10 @@
 // require modules
 const Twit = require('twit');
 const config = require('./config');
+const screen_name = require('./screen_name');
 
 // instantiate Twit
 const bot = new Twit(config);
-
-// set username - change this to the account you have permission to run the bot on
-const screen_name = 'JacksonBates';
 
 // create variable stores 
 let statuses_count = 0;
