@@ -55,7 +55,7 @@ function getUserHistory(user, done) {
     //   }
 
       //Get rid of the first element of each iteration (not the first time)
-      if (data.length > 199) {
+      if (data.length) {
         var popped = chunk.shift();
       }
 
